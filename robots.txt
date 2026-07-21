@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /manna/
+
+Sitemap: https://armandojimenez.dev/manna/sitemap.xml
