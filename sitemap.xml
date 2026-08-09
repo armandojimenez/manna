@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://armandojimenez.dev/manna/</loc>
+    <loc>https://armandojimenez.dev/manna/en/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/es/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/pt-BR/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/fr/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/de/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/it/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/pl/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
+  </url>
+  <url>
+    <loc>https://armandojimenez.dev/manna/id/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://armandojimenez.dev/manna/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://armandojimenez.dev/manna/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://armandojimenez.dev/manna/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://armandojimenez.dev/manna/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://armandojimenez.dev/manna/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://armandojimenez.dev/manna/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://armandojimenez.dev/manna/pl/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://armandojimenez.dev/manna/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://armandojimenez.dev/manna/"/>
   </url>
 </urlset>

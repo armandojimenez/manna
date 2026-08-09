@@ -7,32 +7,14 @@
 
   var html = document.documentElement;
 
-  // ── Language Toggle ──
-  var langToggle = document.getElementById('langToggle');
-  if (langToggle) {
-    var currentLang = html.getAttribute('data-lang') || 'en';
-    langToggle.querySelectorAll('.lang-opt').forEach(function (el) {
-      el.classList.toggle('active', el.dataset.value === currentLang);
-    });
-
-    langToggle.addEventListener('click', function (e) {
-      var opt = e.target.closest('.lang-opt');
-      if (!opt) return;
-      var lang = opt.dataset.value;
-      if (!lang) return;
-
-      html.setAttribute('data-lang', lang);
-      html.setAttribute('lang', lang);
-
-      document.title = lang === 'es'
-        ? 'Manna — Recoge Tu Verdad Diaria'
-        : 'Manna — Gather Your Daily Truth';
-
-      langToggle.querySelectorAll('.lang-opt').forEach(function (el) {
-        el.classList.toggle('active', el.dataset.value === lang);
-      });
-
-      try { localStorage.setItem('manna-lang', lang); } catch (_) {}
+  // ── Language Selector ──
+  var languageSelect = document.getElementById('languageSelect');
+  if (languageSelect) {
+    languageSelect.addEventListener('change', function () {
+      var destination = languageSelect.value;
+      if (destination && /^(?:\.\.\/)?(?:en|es|pt-BR|fr|de|it|pl|id)\/$/.test(destination)) {
+        window.location.assign(destination);
+      }
     });
   }
 

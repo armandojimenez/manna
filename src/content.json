@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "phase": "MA9",
+  "generatedFrom": "MA7 owner-approved copy and MA6 localized UI terminology",
+  "approvalPayloadSha256": "8d56fb0d859f0ef323d0a545bdd43934d42676ed0c5e8ceebdf2f367020d4881",
+  "sources": [
+    {
+      "path": "docs/expansion/ma7/copy/apple-br-pt.json",
+      "sha256": "f2ef7e7de09d42b2e21d5c58e1cf72efab4e102ebfc87311c23b7a49098ad75f"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-de-de.json",
+      "sha256": "29b436ce6e1beb75f16c49e8a2fcddf47c0c414f0ae083af05ee0f317df93b1a"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-es-es.json",
+      "sha256": "5d2feb904bc16483b03b29ab876705b3028934690e8b41b5cc45ef65e7987c60"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-fr-fr.json",
+      "sha256": "b486c797b67f4b1aef1699dfa34a6cee03763314357f375c8ecfb37f4e3ce6f2"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-id-id.json",
+      "sha256": "e84f49b1b5fed406591f32c2a632314c3be8c266d04e05700580cbe7c81d18b8"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-it-it.json",
+      "sha256": "c141a6d7bb07f8ae50af2d77a0eb18190591005c1fcfa210407c9ddeeb321446"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-pl-pl.json",
+      "sha256": "bb638f137be9ccf061040d351afe21d2f8d0eb17f8b5b28ce8f37999bd70c561"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/apple-us-en.json",
+      "sha256": "f19e93a5159e1a45a971e2f04840fa08c1d97b402e39e34221df5a57848e46ad"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-br-pt-br.json",
+      "sha256": "805f5280ef6b4212bcd3d77f8edc6f58075ea1a285069f0a0097195359f2487a"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-de-de-de.json",
+      "sha256": "8a998fb88f0f6d41c5fa9f4e2ab2dcb4dd85a35ee7a71e6e8d6944ba8a9584d4"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-es-es-es.json",
+      "sha256": "5bac17b21f8ccc750f5b4e9b120bfb085121ad2d34313ce4881c99658872e1a1"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-fr-fr-fr.json",
+      "sha256": "9baddef343f550e7295b309d1561d3cbc697f671e3cc2eb2f6dd20c61296f14b"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-id-id.json",
+      "sha256": "7efa7dfdd612e2903ab1d4ba172fcfabd0d8d2b53746610b87762c71c5859cfe"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-it-it-it.json",
+      "sha256": "32187bbd6234e830c7001e28d8fce6789937e2587c2322c5903c849fbed2ab7a"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-pl-pl-pl.json",
+      "sha256": "bd798e6dd115eae287e75a9cdfb21a11964b44bbdb1ae4cb8c1a2113ca7a4afd"
+    },
+    {
+      "path": "docs/expansion/ma7/copy/google-us-en-us.json",
+      "sha256": "69449549dfd5adbf3968acfec23eac1a7e9f77ba587581fc4106d9d199104028"
+    },
+    {
+      "path": "lib/core/l10n/app_de.arb",
+      "sha256": "de133360b81558557e4d1e17c5a20a5f685510b42eb8f0c590761d251f9e5a18"
+    },
+    {
+      "path": "lib/core/l10n/app_en.arb",
+      "sha256": "1ec7d7932420405342ecd12b367c3e878b8f71f59b39fe77a9fbbceb40dd8784"
+    },
+    {
+      "path": "lib/core/l10n/app_es.arb",
+      "sha256": "608b2a8d6ffb595774990254c6b98a5cc627d4793a875d2a2cb9f0358553edd8"
+    },
+    {
+      "path": "lib/core/l10n/app_fr.arb",
+      "sha256": "65a68f482a8ff8407960f7963cf7c4688565dac44e0801d432279771c0474b4a"
+    },
+    {
+      "path": "lib/core/l10n/app_id.arb",
+      "sha256": "8739bac3a655d199fbe3b6e4cc6ddb80a93c5d3a96a1edafb5776726f482b8f3"
+    },
+    {
+      "path": "lib/core/l10n/app_it.arb",
+      "sha256": "3f8ac65fd23eb53c72f95cc4364ff01ed7f8098470c4660b50526c0cde69d41f"
+    },
+    {
+      "path": "lib/core/l10n/app_pl.arb",
+      "sha256": "b7e81d68abc8324bb99aca2909cc3db2f594a7e476508d78659a322b8e3897ab"
+    },
+    {
+      "path": "lib/core/l10n/app_pt_BR.arb",
+      "sha256": "b70fa48e57efd6caa38a4ba90ca89fe8b84d4c1862138e99022dcd2240574442"
+    }
+  ],
+  "locales": {
+    "en": {
+      "locale": "en",
+      "nativeName": "English",
+      "ogLocale": "en_US",
+      "country": "us",
+      "googleHl": "en",
+      "googleGl": "US",
+      "headline": [
+        "Bible affirmations.",
+        "Rooted in God’s Word."
+      ],
+      "download": "Download Manna",
+      "appStore": "Download on the App Store",
+      "playStore": "Get it on Google Play",
+      "explore": "See how Manna works",
+      "features": "A quiet rhythm for every day",
+      "screens": [
+        "Daily Bible affirmations",
+        "Faith for every season",
+        "Practice without rushing"
+      ],
+      "alts": [
+        "Manna home screen with a Bible-based affirmation",
+        "Manna category screen with faith-centered topics",
+        "Manna guided practice screen",
+        "Manna theme screen with light and dark color choices"
+      ],
+      "legalNote": "Privacy and terms are available in English.",
+      "theme": "Change color theme",
+      "languageLinks": "Manna in other languages",
+      "copyright": "All rights reserved.",
+      "title": "Manna: Bible Affirmations",
+      "description": "Christian affirmations to renew your mind with Scripture each day.",
+      "promo": "Bring Bible-based affirmations into prayer and devotional reflection. Keep God's truth close when you need faith, hope, peace, healing, or strength.",
+      "paragraphs": [
+        "Christian affirmations help you return to God's Word when the day feels noisy or uncertain. Manna offers Bible affirmations for a short, steady practice centered on Scripture, faith, hope, peace, and your identity in Christ.",
+        "Every line is grounded in biblical truth. Bible affirmations can give you one clear thought when anxiety, grief, pressure, or doubt makes truth harder to remember. Scripture affirmations keep God's promises in view, while faith affirmations help you speak them with intention.",
+        "Build a rhythm with daily Bible affirmations and daily Christian affirmations. Read one before Christian prayer, pause with it during daily prayer, or come back later when you need a quiet reset. The practice is brief enough to fit real mornings and demanding days.",
+        "Use Manna as a daily devotional without turning reflection into another long task. Choose reminder times that suit your routine and add a home-screen widget to keep one meaningful line visible. The experience is ad-free, calm, and focused on the words in front of you.",
+        "Practice mode makes room for Christian meditation on God's Word. Read slowly, reflect, and pray without rushing. A line can accompany a healing prayer while leaving the outcome in God's hands and keeping the focus on comfort, courage, and trust.",
+        "Make the Bible affirmations app your own. Save favorites, revisit history, search for a thought, and hide anything that does not fit the moment. Create personal lines and mixes, then choose a theme that keeps the text clear and peaceful.",
+        "The built-in library works offline and no account is required. Favorites, history, and personal words stay on your device. María G. calls Manna her morning ritual and says its affirmations ground her before the chaos of the day.",
+        "Open Manna for Christian affirmations that lead you back to God's truth. Let one line support reflection and prayer before a difficult conversation, during a season of grief, or whenever you want Scripture within reach."
+      ],
+      "labels": {
+        "language": "Language",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "practice": "Practice",
+        "reminders": "Reminders",
+        "widgets": "Widgets",
+        "favorites": "Favorites",
+        "history": "History",
+        "mixes": "Mixes",
+        "themes": "Themes"
+      }
+    },
+    "es": {
+      "locale": "es",
+      "nativeName": "Español",
+      "ogLocale": "es_ES",
+      "country": "es",
+      "googleHl": "es",
+      "googleGl": "ES",
+      "headline": [
+        "Afirmaciones bíblicas.",
+        "Arraigadas en Su Palabra."
+      ],
+      "download": "Descarga Manna",
+      "appStore": "Descargar en el App Store",
+      "playStore": "Disponible en Google Play",
+      "explore": "Descubre cómo funciona Manna",
+      "features": "Un ritmo sereno para cada día",
+      "screens": [
+        "Afirmaciones bíblicas diarias",
+        "Fe para cada etapa",
+        "Practica sin prisa"
+      ],
+      "alts": [
+        "Pantalla principal de Manna con una afirmación bíblica",
+        "Pantalla de categorías de Manna con temas de fe",
+        "Pantalla de práctica guiada de Manna",
+        "Pantalla de temas de Manna con opciones de color claras y oscuras"
+      ],
+      "legalNote": "La privacidad y los términos están disponibles en español.",
+      "theme": "Cambiar tema de color",
+      "languageLinks": "Manna en otros idiomas",
+      "copyright": "Todos los derechos reservados.",
+      "title": "Manna: Afirmaciones Bíblicas",
+      "description": "Afirmaciones cristianas para orar cada día y fortalecer tu fe con la Biblia.",
+      "promo": "Lleva afirmaciones bíblicas a tu oración y reflexión devocional. Mantén cerca la verdad de Dios cuando necesites fe, esperanza, paz o fortaleza.",
+      "paragraphs": [
+        "Las afirmaciones cristianas te ayudan a volver a la Palabra de Dios cuando el día se llena de ruido o incertidumbre. Manna reúne afirmaciones bíblicas para una práctica breve centrada en la fe, la esperanza, la paz y tu identidad en Cristo.",
+        "Cada frase nace de la verdad bíblica. Las afirmaciones bíblicas ofrecen una idea clara cuando la ansiedad, el duelo, la presión o la duda dificultan recordar las promesas de Dios. Los versículos bíblicos aportan contexto, y las afirmaciones de fe ayudan a expresar esa verdad con intención.",
+        "Crea un ritmo con afirmaciones diarias y afirmaciones cristianas. Lee una antes de la oración cristiana, detente con ella durante la oración diaria o vuelve más tarde cuando necesites recuperar la calma. También puede acompañar tu devocional diario sin convertirlo en otra tarea larga.",
+        "Configura un recordatorio de oración en el horario que mejor encaje contigo. Añade un widget para mantener una frase significativa a la vista. Manna no tiene anuncios, así que la lectura, la oración y la reflexión permanecen tranquilas y sin interrupciones.",
+        "El modo práctica abre un espacio para la meditación cristiana en la Palabra de Dios. Lee despacio, reflexiona y ora sin prisa. Una frase puede acompañar una oración de sanación mientras dejas el resultado en manos de Dios y buscas consuelo, fortaleza y confianza.",
+        "Haz tuya la experiencia. Guarda tus favoritas, revisa el historial, busca una idea y oculta lo que no encaje con el momento. Crea frases y mezclas personales, y elige un tema que mantenga el texto claro y sereno.",
+        "La biblioteca incluida funciona sin conexión y no requiere una cuenta. Tus datos personales permanecen en el dispositivo. María G. cuenta que Manna se convirtió en su ritual matutino y que sus afirmaciones la centran antes del caos del día.",
+        "Abre Manna cuando quieras volver a la verdad de Dios: por la mañana, antes de una conversación difícil, durante una etapa de duelo o en cualquier momento en que necesites tener cerca la Palabra."
+      ],
+      "labels": {
+        "language": "Idioma",
+        "privacy": "Política de privacidad",
+        "terms": "Términos de Servicio",
+        "practice": "Practicar",
+        "reminders": "Recordatorios",
+        "widgets": "Widgets",
+        "favorites": "Favoritos",
+        "history": "Historial",
+        "mixes": "Mezclas",
+        "themes": "Temas"
+      }
+    },
+    "pt-BR": {
+      "locale": "pt-BR",
+      "nativeName": "Português (Brasil)",
+      "selectorName": "Português",
+      "ogLocale": "pt_BR",
+      "country": "br",
+      "googleHl": "pt_BR",
+      "googleGl": "BR",
+      "headline": [
+        "Afirmações bíblicas.",
+        "Enraizadas na Palavra de Deus."
+      ],
+      "download": "Baixe o Manna",
+      "appStore": "Baixar na App Store",
+      "playStore": "Disponível no Google Play",
+      "explore": "Veja como o Manna funciona",
+      "features": "Um ritmo tranquilo para cada dia",
+      "screens": [
+        "Afirmações bíblicas diárias",
+        "Fé para cada fase",
+        "Pratique sem pressa"
+      ],
+      "alts": [
+        "Tela inicial do Manna com uma afirmação bíblica",
+        "Tela de categorias do Manna com temas de fé",
+        "Tela de prática guiada do Manna",
+        "Tela de temas do Manna com opções de cores claras e escuras"
+      ],
+      "legalNote": "A política de privacidade e os termos são fornecidos em inglês.",
+      "theme": "Alterar tema de cores",
+      "languageLinks": "Manna em outros idiomas",
+      "copyright": "Todos os direitos reservados.",
+      "title": "Manna: Afirmações Bíblicas",
+      "description": "Afirmações cristãs para renovar a mente e manter a Palavra por perto.",
+      "promo": "Leve afirmações bíblicas para sua oração e reflexão devocional. Mantenha a verdade de Deus por perto quando precisar de fé, esperança, paz ou força.",
+      "paragraphs": [
+        "Afirmações cristãs ajudam você a voltar à Palavra de Deus quando o dia fica agitado ou incerto. Manna reúne afirmações bíblicas para uma prática breve que aproxima fé, esperança, paz e identidade em Cristo da sua rotina.",
+        "Cada frase se apoia na verdade bíblica. As afirmações bíblicas oferecem um pensamento claro quando ansiedade, luto, pressão ou dúvida dificultam lembrar as promessas de Deus. Versículos bíblicos dão contexto à reflexão, e afirmações de fé ajudam a declarar essa verdade com intenção.",
+        "Crie um ritmo com afirmações diárias e afirmações cristãs. Leia uma antes da oração cristã, faça uma pausa durante a oração diária ou retorne quando precisar reencontrar a calma. A prática também cabe em um devocional diário sem se tornar outra tarefa longa.",
+        "Defina um lembrete de oração no horário que combina com sua rotina. Adicione um widget para manter uma frase significativa à vista. Manna não tem anúncios, então leitura, oração e reflexão continuam tranquilas e sem interrupções.",
+        "O modo de prática abre espaço para meditação cristã na Palavra de Deus. Leia devagar, reflita e ore sem pressa. Uma frase pode acompanhar uma oração de cura enquanto você entrega o resultado a Deus e busca consolo, força e confiança.",
+        "Personalize a experiência. Salve favoritas, reveja o histórico, pesquise uma ideia e oculte o que não combina com o momento. Crie frases e Mixes pessoais, depois escolha um tema que deixe o texto claro e sereno.",
+        "A biblioteca incluída funciona offline e não exige uma conta. Seus dados pessoais permanecem no dispositivo. María G. conta que Manna se tornou seu ritual matinal e que as afirmações a centram antes do caos do dia.",
+        "Abra Manna de manhã, antes de uma conversa difícil, durante um período de luto ou quando quiser manter a verdade de Deus por perto. Uma frase pode ajudar você a parar, respirar, refletir e orar."
+      ],
+      "labels": {
+        "language": "Idioma",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Serviço",
+        "practice": "Prática",
+        "reminders": "Lembretes",
+        "widgets": "Widgets",
+        "favorites": "Favoritos",
+        "history": "Histórico",
+        "mixes": "Mixes",
+        "themes": "Temas"
+      }
+    },
+    "fr": {
+      "locale": "fr",
+      "nativeName": "Français",
+      "ogLocale": "fr_FR",
+      "country": "fr",
+      "googleHl": "fr",
+      "googleGl": "FR",
+      "headline": [
+        "Des affirmations bibliques.",
+        "Enracinées dans la Parole."
+      ],
+      "download": "Télécharger Manna",
+      "appStore": "Télécharger dans l’App Store",
+      "playStore": "Disponible sur Google Play",
+      "explore": "Découvrez comment fonctionne Manna",
+      "features": "Un rythme paisible au quotidien",
+      "screens": [
+        "Des affirmations bibliques quotidiennes",
+        "La foi pour chaque saison",
+        "Pratiquez sans vous presser"
+      ],
+      "alts": [
+        "Écran d’accueil de Manna avec une affirmation biblique",
+        "Écran des catégories de Manna avec des thèmes de foi",
+        "Écran de pratique guidée de Manna",
+        "Écran des thèmes de Manna avec des choix de couleurs claires et sombres"
+      ],
+      "legalNote": "La politique de confidentialité et les conditions sont fournies en anglais.",
+      "theme": "Changer le thème de couleur",
+      "languageLinks": "Manna dans d’autres langues",
+      "copyright": "Tous droits réservés.",
+      "title": "Manna : Affirmations bibliques",
+      "description": "Affirmations chrétiennes pour prier chaque jour et renouveler votre foi.",
+      "promo": "Intégrez des affirmations bibliques à la prière et à la méditation. Gardez la vérité de Dieu près de vous dans les moments de doute ou de fatigue.",
+      "paragraphs": [
+        "Les affirmations chrétiennes vous aident à retrouver la Parole de Dieu lorsque la journée devient agitée ou incertaine. Manna réunit des affirmations bibliques dans une pratique courte, centrée sur la foi, l’espérance, la paix et votre identité en Christ.",
+        "Chaque phrase s’appuie sur la vérité biblique. Les affirmations bibliques offrent un point de repère quand l’anxiété, le deuil, la pression ou le doute rendent les promesses de Dieu plus difficiles à retenir. Les versets bibliques éclairent la réflexion, et les affirmations de foi aident à exprimer cette vérité avec intention.",
+        "Créez un rythme avec des affirmations quotidiennes et des affirmations chrétiennes. Lisez-en une avant la prière chrétienne, méditez-la pendant la prière quotidienne ou retrouvez-la plus tard lorsque vous avez besoin de calme. Cette pratique s’intègre aussi à une méditation quotidienne sans devenir une longue tâche.",
+        "Choisissez les heures de rappel qui correspondent à votre routine et ajoutez un widget pour garder une phrase importante sous les yeux. Manna est sans publicité afin que la lecture, la prière et la réflexion restent paisibles et sans interruption.",
+        "Le mode pratique ouvre un espace de méditation chrétienne autour de la Parole de Dieu. Lisez lentement, réfléchissez et priez sans vous presser. Une phrase peut accompagner une prière de guérison en confiant le résultat à Dieu et en recherchant le réconfort, la force et la confiance.",
+        "Personnalisez votre expérience. Enregistrez vos favoris, consultez l’historique, recherchez une pensée et masquez ce qui ne convient pas au moment. Créez vos propres phrases et Mélanges, puis choisissez un thème qui garde le texte clair et apaisant.",
+        "La bibliothèque intégrée fonctionne hors ligne et aucun compte n’est requis. Vos données personnelles restent sur votre appareil. María G. raconte que Manna est devenu son rituel du matin et que les affirmations l’aident à se recentrer avant l’agitation de la journée.",
+        "Ouvrez Manna le matin, avant une conversation difficile, pendant une période de deuil ou chaque fois que vous souhaitez garder la vérité de Dieu à portée de main. Une seule phrase peut vous aider à faire une pause, réfléchir et prier."
+      ],
+      "labels": {
+        "language": "Langue",
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d’utilisation",
+        "practice": "Pratiquer",
+        "reminders": "Rappels",
+        "widgets": "Widgets",
+        "favorites": "Favoris",
+        "history": "Historique",
+        "mixes": "Mélanges",
+        "themes": "Thèmes"
+      }
+    },
+    "de": {
+      "locale": "de",
+      "nativeName": "Deutsch",
+      "ogLocale": "de_DE",
+      "country": "de",
+      "googleHl": "de",
+      "googleGl": "DE",
+      "headline": [
+        "Biblische Affirmationen.",
+        "Verwurzelt in Gottes Wort."
+      ],
+      "download": "Manna herunterladen",
+      "appStore": "Im App Store laden",
+      "playStore": "Bei Google Play verfügbar",
+      "explore": "So funktioniert Manna",
+      "features": "Ein ruhiger Rhythmus für jeden Tag",
+      "screens": [
+        "Tägliche biblische Affirmationen",
+        "Glaube für jede Lebensphase",
+        "Übe ohne Eile"
+      ],
+      "alts": [
+        "Manna-Startseite mit einer biblischen Affirmation",
+        "Manna-Kategorien mit glaubensbezogenen Themen",
+        "Geführter Übungsmodus in Manna",
+        "Manna-Designauswahl mit hellen und dunklen Farbvarianten"
+      ],
+      "legalNote": "Datenschutzerklärung und Nutzungsbedingungen werden auf Englisch bereitgestellt.",
+      "theme": "Farbschema wechseln",
+      "languageLinks": "Manna in anderen Sprachen",
+      "copyright": "Alle Rechte vorbehalten.",
+      "title": "Manna: Biblische Affirmationen",
+      "description": "Christliche Affirmationen, die dir Gottes Wort im Alltag nahebringen.",
+      "promo": "Integriere biblische Affirmationen in dein Gebet und deine Andacht. Halte Gottes Wahrheit fest, wenn du Glaube, Hoffnung, Frieden oder Kraft brauchst.",
+      "paragraphs": [
+        "Christliche Affirmationen helfen dir, im Alltag zu Gottes Wort zurückzufinden. Manna verbindet biblische Affirmationen mit einer kurzen, ruhigen Praxis, die Glaube, Hoffnung, Frieden und deine Identität in Christus in den Mittelpunkt stellt.",
+        "Jeder Satz gründet in biblischer Wahrheit. Biblische Affirmationen geben Orientierung, wenn Angst, Trauer, Druck oder Zweifel Gottes Zusagen aus dem Blick rücken lassen. Bibelverse schaffen einen klaren Bezug zur Schrift, und Glaubensaffirmationen helfen dir, diese Wahrheit bewusst auszusprechen.",
+        "Baue einen einfachen Rhythmus auf. Tägliche Affirmationen können den Morgen eröffnen, und christliche Affirmationen helfen dir später, dich neu auszurichten. Ein christliches Gebet kann mit einem Satz beginnen; nimm ihn in dein tägliches Gebet oder in eine tägliche Andacht mit.",
+        "Lege Erinnerungszeiten fest, die zu deinem Tagesablauf passen, und füge ein Widget hinzu, damit eine wichtige Zeile sichtbar bleibt. Manna ist werbefrei, sodass Lesen, Beten und Nachdenken ruhig und ohne Unterbrechung bleiben.",
+        "Der Übungsmodus schafft Raum für christliche Meditation über Gottes Wort. Lies langsam, denke nach und bete ohne Eile. Ein Satz kann ein Heilungsgebet begleiten, während du das Ergebnis Gott überlässt und Trost, Kraft und Vertrauen suchst.",
+        "Gestalte Manna persönlich. Speichere Favoriten, rufe den Verlauf auf, suche nach einem Gedanken und blende aus, was gerade nicht passt. Erstelle eigene Zeilen und Mixe und wähle ein Thema, das den Text klar und angenehm lesbar hält.",
+        "Die integrierte Bibliothek funktioniert offline und erfordert kein Konto. Deine persönlichen Inhalte bleiben auf dem Gerät. María G. beschreibt Manna als ihr Morgenritual und sagt, die Affirmationen geben ihr Halt, bevor der hektische Tag beginnt.",
+        "Öffne Manna am Morgen, vor einem schwierigen Gespräch, während einer Trauerzeit oder immer dann, wenn du Gottes Wahrheit in deiner Nähe brauchst. Schon ein Satz kann dir helfen, innezuhalten, nachzudenken und zu beten."
+      ],
+      "labels": {
+        "language": "Sprache",
+        "privacy": "Datenschutzerklärung",
+        "terms": "Nutzungsbedingungen",
+        "practice": "Üben",
+        "reminders": "Erinnerungen",
+        "widgets": "Widgets",
+        "favorites": "Favoriten",
+        "history": "Verlauf",
+        "mixes": "Mixe",
+        "themes": "Designs"
+      }
+    },
+    "it": {
+      "locale": "it",
+      "nativeName": "Italiano",
+      "ogLocale": "it_IT",
+      "country": "it",
+      "googleHl": "it",
+      "googleGl": "IT",
+      "headline": [
+        "Affermazioni bibliche.",
+        "Radicate nella Parola di Dio."
+      ],
+      "download": "Scarica Manna",
+      "appStore": "Scarica dall’App Store",
+      "playStore": "Disponibile su Google Play",
+      "explore": "Scopri come funziona Manna",
+      "features": "Un ritmo sereno per ogni giorno",
+      "screens": [
+        "Affermazioni bibliche quotidiane",
+        "Fede per ogni stagione",
+        "Pratica senza fretta"
+      ],
+      "alts": [
+        "Schermata iniziale di Manna con un’affermazione biblica",
+        "Schermata delle categorie di Manna con temi di fede",
+        "Schermata di pratica guidata di Manna",
+        "Schermata dei temi di Manna con colori chiari e scuri"
+      ],
+      "legalNote": "L’informativa sulla privacy e i termini sono forniti in inglese.",
+      "theme": "Cambia tema colore",
+      "languageLinks": "Manna in altre lingue",
+      "copyright": "Tutti i diritti riservati.",
+      "title": "Manna: Affermazioni bibliche",
+      "description": "Affermazioni cristiane per ritrovare ogni giorno la Parola di Dio.",
+      "promo": "Porta le affermazioni bibliche nella preghiera e nella devozione. Tieni vicina la verità di Dio quando cerchi fede, speranza, pace o forza.",
+      "paragraphs": [
+        "Le affermazioni cristiane ti aiutano a ritrovare la Parola di Dio quando la giornata diventa intensa o incerta. Manna raccoglie affermazioni bibliche in una pratica breve, centrata sulla fede, sulla speranza, sulla pace e sulla tua identità in Cristo.",
+        "Ogni frase nasce dalla verità biblica. Le affermazioni bibliche offrono un punto fermo quando ansia, lutto, pressione o dubbio rendono più difficile ricordare le promesse di Dio. I versetti biblici danno contesto alla riflessione, mentre le affermazioni di fede aiutano a esprimere quella verità con intenzione.",
+        "Crea un ritmo con affermazioni quotidiane e affermazioni cristiane. Leggine una prima della preghiera cristiana, meditala durante la preghiera quotidiana o ritrovala più tardi quando hai bisogno di calma. La pratica può accompagnare anche un devozionale quotidiano senza diventare un compito lungo.",
+        "Scegli gli orari che si adattano alla tua routine. Un promemoria di preghiera e un widget possono tenere in vista una frase importante. Manna non contiene pubblicità, così lettura, preghiera e riflessione restano serene e senza interruzioni.",
+        "La modalità pratica crea spazio per la meditazione cristiana sulla Parola di Dio. Leggi lentamente, rifletti e prega senza fretta. Una frase può accompagnare una preghiera di guarigione mentre affidi l’esito a Dio e cerchi conforto, forza e fiducia.",
+        "Personalizza l’esperienza. Salva i preferiti, consulta la cronologia, cerca un pensiero e nascondi ciò che non si adatta al momento. Crea frasi e Mix personali, poi scegli un tema che mantenga il testo chiaro e piacevole da leggere.",
+        "La raccolta integrata funziona offline e non richiede un account. I tuoi contenuti personali restano sul dispositivo. María G. racconta che Manna è diventato il suo rito del mattino e che le affermazioni la aiutano a ritrovare il centro prima della frenesia della giornata.",
+        "Apri Manna al mattino, prima di una conversazione difficile, durante un periodo di lutto o quando vuoi tenere vicina la verità di Dio. Una sola frase può aiutarti a fermarti, riflettere e pregare."
+      ],
+      "labels": {
+        "language": "Lingua",
+        "privacy": "Informativa sulla privacy",
+        "terms": "Termini di servizio",
+        "practice": "Pratica",
+        "reminders": "Promemoria",
+        "widgets": "Widget",
+        "favorites": "Preferiti",
+        "history": "Cronologia",
+        "mixes": "Mix",
+        "themes": "Temi"
+      }
+    },
+    "pl": {
+      "locale": "pl",
+      "nativeName": "Polski",
+      "ogLocale": "pl_PL",
+      "country": "pl",
+      "googleHl": "pl",
+      "googleGl": "PL",
+      "headline": [
+        "Afirmacje biblijne.",
+        "Zakorzenione w Słowie Bożym."
+      ],
+      "download": "Pobierz Manna",
+      "appStore": "Pobierz w App Store",
+      "playStore": "Pobierz z Google Play",
+      "explore": "Zobacz, jak działa Manna",
+      "features": "Spokojny rytm na każdy dzień",
+      "screens": [
+        "Codzienne afirmacje biblijne",
+        "Wiara na każdy etap",
+        "Praktyka bez pośpiechu"
+      ],
+      "alts": [
+        "Ekran główny Manna z afirmacją biblijną",
+        "Ekran kategorii Manna z tematami wiary",
+        "Ekran prowadzonej praktyki Manna",
+        "Ekran motywów Manna z jasnymi i ciemnymi wersjami kolorów"
+      ],
+      "legalNote": "Polityka prywatności i warunki korzystania są dostępne w języku angielskim.",
+      "theme": "Zmień motyw kolorów",
+      "languageLinks": "Manna w innych językach",
+      "copyright": "Wszelkie prawa zastrzeżone.",
+      "title": "Manna: Afirmacje biblijne",
+      "description": "Afirmacje chrześcijańskie, które pomagają wracać do Słowa Bożego.",
+      "promo": "Włącz afirmacje biblijne do modlitwy i codziennych rozważań. Zachowaj blisko Bożą prawdę, gdy potrzebujesz wiary, nadziei, pokoju lub siły.",
+      "paragraphs": [
+        "Afirmacje chrześcijańskie pomagają wracać do Słowa Bożego, gdy dzień staje się pełen napięcia lub niepewności. Manna łączy afirmacje biblijne z krótką praktyką skupioną na wierze, nadziei, pokoju i tożsamości w Chrystusie.",
+        "Każde zdanie opiera się na prawdzie biblijnej. Afirmacje biblijne dają punkt oparcia, gdy lęk, żałoba, presja lub wątpliwości odsuwają Boże obietnice na dalszy plan. Wersety biblijne osadzają refleksję w Piśmie, a afirmacje wiary pomagają świadomie wypowiadać tę prawdę.",
+        "Zbuduj prosty rytm. Codzienne afirmacje mogą otwierać poranek, a afirmacje chrześcijańskie pomagają ponownie skupić uwagę na Bogu w ciągu dnia. Modlitwa chrześcijańska może zacząć się od jednego zdania. Codzienna modlitwa zyskuje wtedy spokojny punkt skupienia, podobnie jak codzienne rozważania.",
+        "Ustaw przypomnienia w porach, które pasują do Twojego planu dnia. Przypomnienie o modlitwie i widżet pomagają zachować ważne słowa na ekranie. Manna nie wyświetla reklam, więc czytanie, modlitwa i refleksja pozostają spokojne i nieprzerwane.",
+        "Medytacja chrześcijańska nad Słowem Bożym znajduje swoje miejsce w trybie praktyki. Czytaj powoli, rozważaj i módl się bez pośpiechu. Modlitwa o uzdrowienie może czerpać z jednego zdania, gdy powierzasz wynik Bogu i szukasz pocieszenia, siły oraz ufności.",
+        "Dopasuj Manna do siebie. Zapisuj ulubione, przeglądaj historię, wyszukuj myśli i ukrywaj to, co nie pasuje do chwili. Twórz własne zdania i zestawy, a następnie wybierz motyw, który ułatwia spokojne czytanie.",
+        "Jeśli znasz tę praktykę pod angielskim hasłem affirmations, w Manna znajdziesz jej chrześcijańską formę opartą na Biblii. Wbudowana biblioteka działa offline, nie wymaga konta, a osobiste treści pozostają na urządzeniu.",
+        "María G. nazywa Manna swoim porannym rytuałem i mówi, że afirmacje pomagają jej odzyskać równowagę przed chaosem dnia. Otwórz aplikację rano, przed trudną rozmową lub zawsze, gdy chcesz mieć Bożą prawdę blisko siebie."
+      ],
+      "labels": {
+        "language": "Język",
+        "privacy": "Polityka prywatności",
+        "terms": "Warunki korzystania",
+        "practice": "Praktyka",
+        "reminders": "Przypomnienia",
+        "widgets": "Widżety",
+        "favorites": "Ulubione",
+        "history": "Historia",
+        "mixes": "Zestawy",
+        "themes": "Motywy"
+      }
+    },
+    "id": {
+      "locale": "id",
+      "nativeName": "Bahasa Indonesia",
+      "ogLocale": "id_ID",
+      "country": "id",
+      "googleHl": "id",
+      "googleGl": "ID",
+      "headline": [
+        "Afirmasi Alkitabiah.",
+        "Berakar dalam Firman Tuhan."
+      ],
+      "download": "Unduh Manna",
+      "appStore": "Unduh di App Store",
+      "playStore": "Dapatkan di Google Play",
+      "explore": "Lihat cara kerja Manna",
+      "features": "Ritme yang teduh untuk setiap hari",
+      "screens": [
+        "Afirmasi Alkitab harian",
+        "Iman untuk setiap musim",
+        "Berlatih tanpa terburu-buru"
+      ],
+      "alts": [
+        "Layar utama Manna dengan afirmasi Alkitab",
+        "Layar kategori Manna dengan tema iman",
+        "Layar latihan terpandu Manna",
+        "Layar tema Manna dengan pilihan warna terang dan gelap"
+      ],
+      "legalNote": "Kebijakan privasi dan ketentuan layanan tersedia dalam bahasa Inggris.",
+      "theme": "Ubah tema warna",
+      "languageLinks": "Manna dalam bahasa lain",
+      "copyright": "Hak cipta dilindungi.",
+      "title": "Manna: Afirmasi Alkitab",
+      "description": "Afirmasi Kristen untuk mengingat Firman Tuhan sepanjang hari.",
+      "promo": "Bawa afirmasi Alkitab ke dalam doa dan renungan. Jaga kebenaran Tuhan tetap dekat saat kamu membutuhkan iman, pengharapan, damai, atau kekuatan.",
+      "paragraphs": [
+        "Afirmasi Kristen membantumu kembali mengingat Firman Tuhan saat hari terasa sibuk atau tidak menentu. Manna menghadirkan afirmasi Alkitab dalam latihan singkat yang berpusat pada iman, pengharapan, damai, dan identitasmu di dalam Kristus.",
+        "Setiap kalimat berakar pada kebenaran Alkitab. Afirmasi Alkitab memberi pegangan ketika kecemasan, duka, tekanan, atau keraguan membuat janji Tuhan sulit diingat. Ayat Alkitab menempatkan perenungan dalam konteks Kitab Suci, sedangkan afirmasi iman membantumu mengucapkan kebenaran itu dengan sungguh-sungguh.",
+        "Bangun ritme sederhana dengan afirmasi harian. Afirmasi Kristen dapat membuka pagi atau membantumu memusatkan hati kembali kepada Tuhan di tengah hari. Doa Kristen bisa dimulai dengan satu kalimat; bawalah kalimat itu dalam doa harian atau renungan harian.",
+        "Atur waktu pengingat sesuai rutinitasmu dan tambahkan widget agar satu kalimat penting tetap terlihat. Manna bebas iklan, sehingga membaca, berdoa, dan merenung dapat berlangsung dengan tenang tanpa gangguan.",
+        "Mode latihan menyediakan ruang untuk meditasi Kristen atas Firman Tuhan. Baca perlahan, renungkan, dan berdoalah tanpa terburu-buru. Satu kalimat dapat menemani doa kesembuhan saat kamu menyerahkan hasilnya kepada Tuhan serta mencari penghiburan, kekuatan, dan keyakinan.",
+        "Sesuaikan Manna dengan kebutuhanmu. Simpan favorit, buka riwayat, cari sebuah gagasan, dan sembunyikan hal yang tidak sesuai dengan momenmu. Buat kalimat dan campuran pribadi, lalu pilih tema yang membuat teks mudah dibaca dan terasa teduh.",
+        "Pustaka bawaan dapat digunakan secara offline dan tidak memerlukan akun. Konten pribadimu tetap berada di perangkat. María G. menyebut Manna sebagai ritual paginya dan berkata bahwa afirmasi di Manna membantunya menenangkan diri sebelum kesibukan dimulai.",
+        "Buka Manna pada pagi hari, sebelum percakapan sulit, selama masa berduka, atau ketika kamu ingin menjaga kebenaran Tuhan tetap dekat. Satu kalimat dapat membantumu berhenti sejenak, merenung, dan berdoa."
+      ],
+      "labels": {
+        "language": "Bahasa",
+        "privacy": "Kebijakan Privasi",
+        "terms": "Ketentuan Layanan",
+        "practice": "Latihan",
+        "reminders": "Pengingat",
+        "widgets": "Widget",
+        "favorites": "Favorit",
+        "history": "Riwayat",
+        "mixes": "Campuran",
+        "themes": "Tema"
+      }
+    }
+  }
+}

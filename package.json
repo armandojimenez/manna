@@ -1,0 +1,12 @@
+{
+  "name": "manna-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:content": "node scripts/import-content.mjs",
+    "build:assets": "node scripts/build-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run build:assets && npm run build && npm run validate"
+  }
+}

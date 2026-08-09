@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "phase": "MA9",
+  "status": "pass",
+  "reviewedAt": "2026-08-08",
+  "reviewer": "independent-ma9-copy-review",
+  "contentSha256": "7f5ec2fc3000e7645d4351c52857081f648b7a8fc59ad5780da87c7d67680e10",
+  "importToolSha256": "19f6e1c6c1d95671cc5ffa7dceda56aee0ce0a2177ad793df8c73d43e823e424",
+  "findingsResolved": true
+}

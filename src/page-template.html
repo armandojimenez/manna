@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manna — Gather Your Daily Truth</title>
+  <meta name="description" content="Scripture-rooted affirmations to renew your mind, strengthen your faith, and transform your mornings. Available on iOS and Android.">
+  <meta name="theme-color" content="#FAF8F5">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://armandojimenez.dev/manna/">
+
+  <!-- Prevent FOUC for saved preferences -->
+  <script>
+    try {
+      var p = new URLSearchParams(window.location.search);
+      var lang = p.get('lang');
+      var saved = lang === 'es' || lang === 'en' ? lang : localStorage.getItem('manna-lang');
+      if (saved === 'es') { document.documentElement.setAttribute('data-lang', 'es'); document.documentElement.setAttribute('lang', 'es'); }
+      if (lang) localStorage.setItem('manna-lang', lang);
+      var t = localStorage.getItem('manna-theme');
+      if (t === 'dark') { document.documentElement.setAttribute('data-theme', 'dark'); }
+      else if (!t && window.matchMedia('(prefers-color-scheme: dark)').matches) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    } catch(e) {}
+  </script>
+
+  <!-- Safari Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=6760322477">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Manna — Gather Your Daily Truth">
+  <meta property="og:description" content="Scripture-rooted affirmations to renew your mind, strengthen your faith, and transform your mornings.">
+  <meta property="og:image" content="https://armandojimenez.dev/manna/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://armandojimenez.dev/manna/">
+  <meta property="og:site_name" content="Manna">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manna — Gather Your Daily Truth">
+  <meta name="twitter:description" content="Scripture-rooted affirmations to renew your mind, strengthen your faith, and transform your mornings.">
+  <meta name="twitter:image" content="https://armandojimenez.dev/manna/assets/og-image.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1" defer></script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Manna",
+    "description": "Scripture-rooted affirmations to renew your mind, strengthen your faith, and transform your mornings.",
+    "applicationCategory": "LifestyleApplication",
+    "operatingSystem": "iOS, Android",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="assets/app-icon.png" alt="Manna" width="36" height="36">
+        <span class="nav-wordmark">Manna</span>
+      </a>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-opt active" data-value="en">EN</span>
+          <span class="lang-sep">/</span>
+          <span class="lang-opt" data-value="es">ES</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="ph ph-sun-dim theme-icon-light"></i>
+          <i class="ph ph-moon theme-icon-dark"></i>
+        </button>
+        <a href="#download" class="nav-cta">
+          <span class="lang-en">Download</span>
+          <span class="lang-es">Descargar</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <img src="assets/app-icon.png" alt="" class="hero-icon" width="72" height="72">
+          <h1 class="hero-title anim-up">
+            <span class="lang-en">Manna<span class="dot">.</span><br><span class="hero-title-light">Gather Your<br>Daily Truth<span class="dot">.</span></span></span>
+            <span class="lang-es">Manna<span class="dot">.</span><br><span class="hero-title-light">Recoge Tu<br>Verdad Diaria<span class="dot">.</span></span></span>
+          </h1>
+          <p class="hero-sub anim-up anim-d1">
+            <span class="lang-en">Scripture-rooted affirmations to renew your mind, strengthen your faith, and transform your mornings.</span>
+            <span class="lang-es">Afirmaciones arraigadas en la Escritura para renovar tu mente, fortalecer tu fe y transformar tus mañanas.</span>
+          </p>
+          <div class="hero-badges anim-up anim-d2">
+            <a href="https://apps.apple.com/us/app/manna/id6760322477" class="store-badge" target="_blank" rel="noopener">
+              <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=dev.armandojimenez.manna" class="store-badge" target="_blank" rel="noopener">
+              <img src="assets/google-play-badge.svg" alt="Get it on Google Play" width="174" height="52">
+            </a>
+          </div>
+        </div>
+        <div class="hero-phone anim-up anim-d2">
+          <!-- SCREENSHOT: Hero — Home screen showing the main affirmation card swiper -->
+          <img src="assets/screenshots/en/hero-home.png" alt="Manna home screen with scripture affirmation card" class="hero-phone-img lang-en">
+          <img src="assets/screenshots/es/hero-home.png" alt="Pantalla principal de Manna con tarjeta de afirmación bíblica" class="hero-phone-img lang-es">
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <i class="ph ph-caret-down"></i>
+      </div>
+    </section>
+
+    <!-- ====== WHAT ARE CHRISTIAN AFFIRMATIONS ====== -->
+    <section class="what-are" id="what-are">
+      <div class="section-wrap">
+        <p class="overline anim-up">
+          <span class="lang-en">The Practice</span>
+          <span class="lang-es">La Práctica</span>
+        </p>
+        <h2 class="heading-lg anim-up">
+          <span class="lang-en">What Are Christian Affirmations?</span>
+          <span class="lang-es">¿Qué Son las Afirmaciones Cristianas?</span>
+        </h2>
+        <p class="body-lg what-are-intro anim-up">
+          <span class="lang-en">Christian affirmations are spoken declarations of God's promises and biblical truths. Unlike generic self-help mantras, they draw their power from Scripture — the unchanging Word of the Creator who knows you by name.</span>
+          <span class="lang-es">Las afirmaciones cristianas son declaraciones habladas de las promesas de Dios y verdades bíblicas. A diferencia de los mantras genéricos de autoayuda, obtienen su poder de la Escritura — la Palabra inmutable del Creador que te conoce por tu nombre.</span>
+        </p>
+
+        <!-- Example Affirmation Cards -->
+        <div class="affirm-grid">
+          <div class="affirm-card anim-up">
+            <p class="affirm-text">
+              <span class="lang-en">"I am fearfully and wonderfully made."</span>
+              <span class="lang-es">"Maravillosas son tus obras, y mi alma lo sabe muy bien."</span>
+            </p>
+            <cite class="affirm-ref">
+              <span class="lang-en">Psalm 139:14</span>
+              <span class="lang-es">Salmo 139:14</span>
+            </cite>
+          </div>
+          <div class="affirm-card anim-up anim-d1">
+            <p class="affirm-text">
+              <span class="lang-en">"I can do all things through Christ who strengthens me."</span>
+              <span class="lang-es">"Todo lo puedo en Cristo que me fortalece."</span>
+            </p>
+            <cite class="affirm-ref">
+              <span class="lang-en">Philippians 4:13</span>
+              <span class="lang-es">Filipenses 4:13</span>
+            </cite>
+          </div>
+          <div class="affirm-card anim-up anim-d2">
+            <p class="affirm-text">
+              <span class="lang-en">"God has not given me a spirit of fear, but of power, love, and a sound mind."</span>
+              <span class="lang-es">"Dios no me ha dado un espíritu de temor, sino de poder, de amor y de dominio propio."</span>
+            </p>
+            <cite class="affirm-ref">
+              <span class="lang-en">2 Timothy 1:7</span>
+              <span class="lang-es">2 Timoteo 1:7</span>
+            </cite>
+          </div>
+        </div>
+
+        <p class="body-lg what-are-explain anim-up">
+          <span class="lang-en">When you speak God's Word over your life, you're not manifesting — you're <em>remembering</em>. You're aligning your heart with truths that were declared over you before you were born.</span>
+          <span class="lang-es">Cuando declaras la Palabra de Dios sobre tu vida, no estás manifestando — estás <em>recordando</em>. Estás alineando tu corazón con verdades que fueron declaradas sobre ti antes de que nacieras.</span>
+        </p>
+
+        <!-- Scripture Pull-Quote -->
+        <blockquote class="scripture anim-up">
+          <p>
+            <span class="lang-en">"Do not conform to the pattern of this world, but be transformed by the renewing of your mind."</span>
+            <span class="lang-es">"No se amolden al mundo actual, sino sean transformados mediante la renovación de su mente."</span>
+          </p>
+          <cite>
+            <span class="lang-en">Romans 12:2</span>
+            <span class="lang-es">Romanos 12:2</span>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ====== STATS ====== -->
+    <section class="stats">
+      <div class="stats-inner">
+        <div class="stat anim-up">
+          <span class="stat-num">1,000+</span>
+          <span class="stat-label">
+            <span class="lang-en">Affirmations</span>
+            <span class="lang-es">Afirmaciones</span>
+          </span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat anim-up anim-d1">
+          <span class="stat-num">20</span>
+          <span class="stat-label">
+            <span class="lang-en">Categories</span>
+            <span class="lang-es">Categorías</span>
+          </span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat anim-up anim-d2">
+          <span class="stat-num">8+</span>
+          <span class="stat-label">
+            <span class="lang-en">Themes</span>
+            <span class="lang-es">Temas</span>
+          </span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat anim-up anim-d3">
+          <span class="stat-num">2</span>
+          <span class="stat-label">
+            <span class="lang-en">Languages</span>
+            <span class="lang-es">Idiomas</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== APP SHOWCASE ====== -->
+    <section class="showcase" id="showcase">
+      <div class="section-wrap">
+        <p class="overline tc anim-up">
+          <span class="lang-en">The App</span>
+          <span class="lang-es">La App</span>
+        </p>
+        <h2 class="heading-lg tc anim-up">
+          <span class="lang-en">God's promises, beautifully delivered.</span>
+          <span class="lang-es">Las promesas de Dios, hermosamente entregadas.</span>
+        </h2>
+        <p class="body-lg tc showcase-sub anim-up">
+          <span class="lang-en">Every detail — from typography to transitions — is crafted to make each affirmation feel like it was written just for you.</span>
+          <span class="lang-es">Cada detalle — de la tipografía a las transiciones — está diseñado para que cada afirmación se sienta escrita para ti.</span>
+        </p>
+
+        <div class="showcase-grid">
+          <div class="showcase-item anim-up">
+            <!-- SCREENSHOT 1: Home screen — affirmation card swiper (different angle/card than hero) -->
+            <img src="assets/screenshots/en/home-cards.png" alt="Daily affirmation cards" class="showcase-img lang-en" loading="lazy">
+            <img src="assets/screenshots/es/home-cards.png" alt="Tarjetas de afirmación diarias" class="showcase-img lang-es" loading="lazy">
+            <p class="showcase-caption">
+              <span class="lang-en">Swipe through daily affirmations</span>
+              <span class="lang-es">Desliza afirmaciones diarias</span>
+            </p>
+          </div>
+          <div class="showcase-item anim-up anim-d1">
+            <!-- SCREENSHOT 2: Categories grid — showing the 20 category cards with colors -->
+            <img src="assets/screenshots/en/categories.png" alt="20 life categories" class="showcase-img lang-en" loading="lazy">
+            <img src="assets/screenshots/es/categories.png" alt="20 categorías de vida" class="showcase-img lang-es" loading="lazy">
+            <p class="showcase-caption">
+              <span class="lang-en">20 categories for every season</span>
+              <span class="lang-es">20 categorías para cada temporada</span>
+            </p>
+          </div>
+          <div class="showcase-item anim-up anim-d2">
+            <!-- SCREENSHOT 3: Practice mode — timed affirmation meditation session -->
+            <img src="assets/screenshots/en/practice.png" alt="Guided practice mode" class="showcase-img lang-en" loading="lazy">
+            <img src="assets/screenshots/es/practice.png" alt="Modo de práctica guiada" class="showcase-img lang-es" loading="lazy">
+            <p class="showcase-caption">
+              <span class="lang-en">Guided practice sessions</span>
+              <span class="lang-es">Sesiones de práctica guiada</span>
+            </p>
+          </div>
+          <div class="showcase-item anim-up anim-d3">
+            <!-- SCREENSHOT 4: Theme selection screen — showing available card themes -->
+            <img src="assets/screenshots/en/themes.png" alt="Beautiful handcrafted themes" class="showcase-img lang-en" loading="lazy">
+            <img src="assets/screenshots/es/themes.png" alt="Hermosos temas diseñados a mano" class="showcase-img lang-es" loading="lazy">
+            <p class="showcase-caption">
+              <span class="lang-en">Handcrafted themes</span>
+              <span class="lang-es">Temas diseñados a mano</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FEATURES ====== -->
+    <section class="features" id="features">
+      <div class="section-wrap">
+        <p class="overline anim-up">
+          <span class="lang-en">Features</span>
+          <span class="lang-es">Funciones</span>
+        </p>
+        <h2 class="heading-lg anim-up">
+          <span class="lang-en">A daily practice, not another app.</span>
+          <span class="lang-es">Una práctica diaria, no otra app más.</span>
+        </h2>
+
+        <div class="features-grid">
+          <div class="feat-card anim-up">
+            <i class="ph ph-cards feat-icon"></i>
+            <h3>
+              <span class="lang-en">Daily Affirmation Cards</span>
+              <span class="lang-es">Tarjetas de Afirmación Diarias</span>
+            </h3>
+            <p>
+              <span class="lang-en">Fresh scripture-based affirmations delivered every day. Swipe, save, and share the ones that speak to your heart.</span>
+              <span class="lang-es">Afirmaciones frescas basadas en la Escritura cada día. Desliza, guarda y comparte las que hablen a tu corazón.</span>
+            </p>
+          </div>
+          <div class="feat-card anim-up anim-d1">
+            <i class="ph ph-squares-four feat-icon"></i>
+            <h3>
+              <span class="lang-en">20 Life Categories</span>
+              <span class="lang-es">20 Categorías de Vida</span>
+            </h3>
+            <p>
+              <span class="lang-en">From Faith &amp; Trust to Healing, Purpose, and Victory. Find affirmations that meet you exactly where you are.</span>
+              <span class="lang-es">Desde Fe y Confianza hasta Sanidad, Propósito y Victoria. Encuentra afirmaciones que te encuentran donde estás.</span>
+            </p>
+          </div>
+          <div class="feat-card anim-up anim-d2">
+            <i class="ph ph-timer feat-icon"></i>
+            <h3>
+              <span class="lang-en">Guided Practice Mode</span>
+              <span class="lang-es">Modo de Práctica Guiada</span>
+            </h3>
+            <p>
+              <span class="lang-en">Timed meditation sessions. Sit with each affirmation, let it sink deep, and build a daily habit that transforms.</span>
+              <span class="lang-es">Sesiones de meditación con tiempo. Siéntate con cada afirmación, déjala calar hondo y construye un hábito que transforma.</span>
+            </p>
+          </div>
+          <div class="feat-card anim-up anim-d3">
+            <i class="ph ph-palette feat-icon"></i>
+            <h3>
+              <span class="lang-en">Beautiful Themes</span>
+              <span class="lang-es">Hermosos Temas</span>
+            </h3>
+            <p>
+              <span class="lang-en">8 handcrafted themes plus a custom theme creator. Make your practice space feel like home.</span>
+              <span class="lang-es">8 temas diseñados a mano más un creador personalizado. Haz que tu espacio de práctica se sienta como en casa.</span>
+            </p>
+          </div>
+          <div class="feat-card anim-up anim-d4">
+            <i class="ph ph-bell-ringing feat-icon"></i>
+            <h3>
+              <span class="lang-en">Daily Reminders</span>
+              <span class="lang-es">Recordatorios Diarios</span>
+            </h3>
+            <p>
+              <span class="lang-en">Gentle, customizable notifications to build a consistent practice. Set times that fit your rhythm.</span>
+              <span class="lang-es">Notificaciones suaves y personalizables para construir una práctica consistente. Horarios que se adapten a tu ritmo.</span>
+            </p>
+          </div>
+          <div class="feat-card anim-up anim-d5">
+            <i class="ph ph-pencil-line feat-icon"></i>
+            <h3>
+              <span class="lang-en">Custom Affirmations</span>
+              <span class="lang-es">Afirmaciones Personalizadas</span>
+            </h3>
+            <p>
+              <span class="lang-en">Write your own from Scripture or your pastor's teaching, and weave them into your daily practice.</span>
+              <span class="lang-es">Escribe las tuyas de la Escritura o las enseñanzas de tu pastor, e intégralas en tu práctica diaria.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== BENEFITS (Inverted Dark Section) ====== -->
+    <section class="benefits" id="benefits">
+      <div class="benefits-texture" aria-hidden="true"></div>
+      <div class="section-wrap benefits-wrap">
+        <p class="overline anim-up">
+          <span class="lang-en">Why Manna</span>
+          <span class="lang-es">Por Qué Manna</span>
+        </p>
+        <h2 class="heading-lg anim-up">
+          <span class="lang-en">Fresh truth every morning.<br>A practice that transforms.</span>
+          <span class="lang-es">Verdad fresca cada mañana.<br>Una práctica que transforma.</span>
+        </h2>
+
+        <div class="benefits-grid">
+          <div class="ben-card anim-up">
+            <div class="ben-icon"><i class="ph ph-book-open-text"></i></div>
+            <h3>
+              <span class="lang-en">Rooted in Scripture</span>
+              <span class="lang-es">Arraigadas en la Escritura</span>
+            </h3>
+            <p>
+              <span class="lang-en">Every affirmation draws from God's Word. This isn't self-help — it's declaring what your Creator has already said about you.</span>
+              <span class="lang-es">Cada afirmación proviene de la Palabra de Dios. Esto no es autoayuda — es declarar lo que tu Creador ya ha dicho sobre ti.</span>
+            </p>
+          </div>
+          <div class="ben-card anim-up anim-d1">
+            <div class="ben-icon"><i class="ph ph-sun-horizon"></i></div>
+            <h3>
+              <span class="lang-en">Renew Your Mind Daily</span>
+              <span class="lang-es">Renueva Tu Mente a Diario</span>
+            </h3>
+            <p>
+              <span class="lang-en">Small moments of declaration create lasting transformation. A daily habit that changes how you think, speak, and believe.</span>
+              <span class="lang-es">Pequeños momentos de declaración crean transformación duradera. Un hábito diario que cambia cómo piensas, hablas y crees.</span>
+            </p>
+          </div>
+          <div class="ben-card anim-up anim-d2">
+            <div class="ben-icon"><i class="ph ph-shield-check"></i></div>
+            <h3>
+              <span class="lang-en">Build Unshakable Faith</span>
+              <span class="lang-es">Construye Fe Inquebrantable</span>
+            </h3>
+            <p>
+              <span class="lang-en">When you meditate on God's promises, doubt gives way to confidence. Not in yourself — in the One who made you.</span>
+              <span class="lang-es">Cuando meditas en las promesas de Dios, la duda cede ante la confianza. No en ti mismo — en Aquel que te creó.</span>
+            </p>
+          </div>
+          <div class="ben-card anim-up anim-d3">
+            <div class="ben-icon"><i class="ph ph-heart"></i></div>
+            <h3>
+              <span class="lang-en">Beautiful &amp; Distraction-Free</span>
+              <span class="lang-es">Hermosa y Sin Distracciones</span>
+            </h3>
+            <p>
+              <span class="lang-en">No ads. No noise. No algorithms. Just a warm, quiet space for you and God's truth.</span>
+              <span class="lang-es">Sin anuncios. Sin ruido. Sin algoritmos. Solo un espacio cálido y tranquilo para ti y la verdad de Dios.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CTA ====== -->
+    <section class="cta" id="download">
+      <div class="cta-texture" aria-hidden="true"></div>
+      <div class="cta-inner">
+        <h2 class="cta-heading anim-up">
+          <span class="lang-en">Your daily manna is waiting.</span>
+          <span class="lang-es">Tu maná diario te espera.</span>
+        </h2>
+        <p class="cta-sub anim-up">
+          <span class="lang-en">Gather Your Daily Truth.</span>
+          <span class="lang-es">Recoge Tu Verdad Diaria.</span>
+        </p>
+        <div class="cta-badges anim-up anim-d1">
+          <a href="https://apps.apple.com/us/app/manna/id6760322477" class="store-badge" target="_blank" rel="noopener">
+            <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=dev.armandojimenez.manna" class="store-badge" target="_blank" rel="noopener">
+            <img src="assets/google-play-badge.svg" alt="Get it on Google Play" width="189" height="56">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/app-icon.png" alt="" width="28" height="28">
+        <span>Manna</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="https://armandojimenez.dev/manna/privacy" class="footer-link">
+          <span class="lang-en">Privacy Policy</span>
+          <span class="lang-es">Política de Privacidad</span>
+        </a>
+        <span class="footer-sep">&middot;</span>
+        <a href="https://armandojimenez.dev/manna/terms" class="footer-link">
+          <span class="lang-en">Terms of Use</span>
+          <span class="lang-es">Términos de Uso</span>
+        </a>
+        <span class="footer-sep">&middot;</span>
+        <a href="https://armandojimenez.dev" class="footer-link" target="_blank" rel="noopener">armandojimenez.dev</a>
+      </nav>
+      <p class="footer-copy">
+        <span class="lang-en">&copy; 2026 Armando Jimenez. All rights reserved.</span>
+        <span class="lang-es">&copy; 2026 Armando Jimenez. Todos los derechos reservados.</span>
+      </p>
+      <p class="footer-tagline">
+        <span class="lang-en">No ads. No noise. Just truth.</span>
+        <span class="lang-es">Sin anuncios. Sin ruido. Solo verdad.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

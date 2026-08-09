@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "phase": "MA9",
+  "origin": "https://armandojimenez.dev/manna",
+  "defaultLocale": "en",
+  "publishedLocales": ["en", "es", "pt-BR", "fr", "de", "it", "pl", "id"],
+  "legalFallback": {
+    "en": "en",
+    "es": "es",
+    "pt-BR": "en",
+    "fr": "en",
+    "de": "en",
+    "it": "en",
+    "pl": "en",
+    "id": "en"
+  },
+  "legalUrls": {
+    "en": {
+      "privacy": "https://armandojimenez.dev/apps/manna/privacy-policy.html",
+      "terms": "https://armandojimenez.dev/apps/manna/terms.html"
+    },
+    "es": {
+      "privacy": "https://armandojimenez.dev/apps/manna/privacy-policy-es.html",
+      "terms": "https://armandojimenez.dev/apps/manna/terms-es.html"
+    }
+  },
+  "storeState": "owner-approved for coordinated all-language publication on 2026-08-09"
+}
