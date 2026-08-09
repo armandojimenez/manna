@@ -1,8 +1,8 @@
 # Manna MA9 landing contract
 
 This repository implements MA9 from Manna's `docs/GLOBAL_EXPANSION_PLAN.md`.
-The coordinated all-language release was owner-approved for deployment on
-2026-08-09.
+The coordinated all-language release was owner-approved and deployed on
+2026-08-09 at `https://armandojimenez.dev/manna/`.
 
 ## Publication allowlist
 
